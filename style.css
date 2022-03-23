@@ -23,16 +23,17 @@ p{
 }
 .accueil h1{
     text-align: center;
-    font-size: 110px;
+    font-size: 73px;
     text-shadow: 0 0 10px rgb(136, 135, 135);
     color: rgb(255, 255, 255);
     padding-top: 150px;
+    
     
 }
 
 .accueil p{
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     padding-right: 10px;
     text-shadow: 0 0 10px rgb(136, 135, 135);
@@ -45,4 +46,18 @@ p{
     font-family: 'Amarante', cursive;
     
 }
+
+@media screen and  (min-width: 874px) {
+    .accueil h1{
+        font-size: 110px;
+    }
+
+    .accueil p{
+        font-size: 35px ;
+    }
+}
+    
+
+
+/*Vie du club*/
     

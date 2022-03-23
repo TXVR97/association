@@ -1,68 +1,74 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Amarante&family=Atma:wght@700&family=Work+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 
-    <title>SPRIIINT</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Atma:wght@700&family=Work+Sans&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+  <title>SPRIIINT</title>
 </head>
+
 <body>
 
-    <!-- barre de naviguation-->
-    <nav class="navbar is-black " role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="#">
-            <img src="img/spriiint-logo.png" width="112" height="28">
-          </a>
-      
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" id="btnNav">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-      
-        <div id="menuContent" class="navbar-menu">
-          <div class="navbar-end">
-            <a class="navbar-item">
-              Accueil
-            </a>
-      
-            <a class="navbar-item" href="#life">
-              Vie du club
-            </a>
-
-            <a class="navbar-item" href="#">
-                Stages à l'étranger
-              </a>
-
-              <a class="navbar-item" href="#">
-                Nous rejoindre
-              </a>
-      
-            
-          </div>
-      
-          
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
+  <!-- barre de naviguation-->
 
 
+  <nav class="navbar is-black " role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#">
+        <img src="img/spriiint-logo.png" width="112" height="28">
+      </a>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"
+        id="btnNav">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="menuContent" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item">
+          Accueil
+        </a>
+
+        <a class="navbar-item" href="#life">
+          Vie du club
+        </a>
+
+        <a class="navbar-item" href="#">
+          Stages à l'étranger
+        </a>
+
+        <a class="navbar-item" href="#">
+          Nous rejoindre
+        </a>
 
 
-      <!--Accueil-->
+      </div>
 
 
-<div class="accueil" id="home">
+    </div>
+    </div>
+    </div>
+    </div>
+  </nav>
+
+
+
+
+  <!--Accueil-->
+
+
+  <div class="accueil" id="home">
     <h1>SPRIIINT</h1>
     <p class="suite du titre">Pour courir plus vite</p>
     <button class="button is-medium" href="#life">En savoir plus</button>
@@ -70,18 +76,26 @@
 
 
 
-</div>
+  </div>
 
 
 
-    
+  <!--Vie du club-->
 
-<script>
+
+
+
+
+
+
+
+  <script>
     var btn = document.getElementById('btnNav');
     var content = document.getElementById('menuContent');
-    btn.addEventListener('click' , function(){
-        content.classList.toggle('is-active');
+    btn.addEventListener('click', function () {
+      content.classList.toggle('is-active');
     })
-</script>
+  </script>
 </body>
+
 </html>
