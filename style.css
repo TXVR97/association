@@ -83,32 +83,87 @@ a{
     
 #cross1{
     display: flex;
+    justify-content: center;
     
 }
 
 #cross2{
     display: flex;
+    justify-content: center;
     
     
 }
  
-#cross3{
+#crossmiddle{
     display: flex;
+    padding-left: 12px;
+    justify-content: center;
+
     
 }
 
 
 
 
-@media screen and (min-width: 960px) {
-    #cross3{display: none;}
-    #cross1{display: block;
-        margin-left: 100px;
-        margin-top: 20px;}
-    #cross2{display: block;
-        margin-left: 150px;
-        margin-top: 20px;}
+@media screen and (min-width: 1024px) {
+    
+    #cross1{display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    #cross2{display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
    
+}
+
+
+@media screen and (min-width: 1024px) {
+    #crossmiddle{display: none;}
+}
+
+@media screen and (min-width: 1024px) {
+    #collumn1{
+        margin-top: 10px;
+    }
+    #collumn2{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 1220px) {
+    #collumn1{
+        margin-top: 90px;
+    }
+    #collumn2{
+        margin-top: 90px;
+    }
+}
+
+
+@media screen and (min-width: 1408px) {
+    #collumn1{
+        margin-top: 150px;
+    }
+    #collumn2{
+        margin-top: 150px;
+    }
+}
+
+/*debut correction de la croix du milieu probleme avec is-multiline */
+@media screen and  (min-width: 769px){
+    #lifecontainer{
+display:block;
+    }
+}
+    
+@media screen and (min-width: 1024px){
+    #lifecontainer{
+        display: flex;
+    }
 }
 
 /*stage etranger*/
@@ -127,7 +182,33 @@ a{
 
 @media screen and  (min-width: 960px) {
     .travel{
-        background-image: url(img/avion.png);
-        
+        background-image: url(img/avion.png);}
     }
-}
+
+    .cardcontainer{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+        grid-gap: 0.5em;
+    }
+    
+    .card{
+        height: max-content;
+    }
+   
+    @media screen and  (min-width: 1120px){
+        .cardcontainer{
+            grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+        }
+    }
+
+    @media screen and  (min-width: 1330px){
+        .cardcontainer{
+            grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+        }
+    }
+
+    @media screen and  (min-width: 1730px){
+        .cardcontainer{
+            grid-template-columns: repeat(auto-fill, minmax(500px,1fr));
+        }
+    }
