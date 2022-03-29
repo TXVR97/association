@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Atma:wght@700&family=Work+Sans&display=swap"
     rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 
   <title>SPRIIINT</title>
@@ -20,7 +21,7 @@
   <!-- barre de naviguation-->
 
 
-  <nav class="navbar is-black " aria-label="main navigation">
+  <nav class="navbar is-black " aria-label="main navigation" id="barrenav">
     <div class="navbar-brand">
       <a class="navbar-item" href="#">
         <img src="img/spriiint-logo.png" width="112" height="28" alt="logo">
@@ -48,19 +49,23 @@
           Stages à l'étranger
         </a>
 
-        <a class="navbar-item" href="#">
+        <a class="navbar-item" href="#price">
           Nous rejoindre
         </a>
 
-
+        <a class="navbar-item" href="#contact">
+          Contact
+        </a>
       </div>
-
-
     </div>
-
-
-
   </nav>
+
+
+
+
+
+
+
 
 
 
@@ -75,11 +80,11 @@
     <button class="button is-medium " id="plusbutton">
       <a href="#life"> En savoir plus</a>
     </button>
-
-
-
-
   </div>
+
+
+
+
 
 
 
@@ -89,7 +94,7 @@
     <div class="container">
       <div class="mb-6 pb-3 columns is-multiline">
         <div class="column is-12 is-6-desktop mx-auto has-text-centered">
-          <h1 class="mb-4 is-size-1 is-size-3-mobile has-text-weight-bold">Vie du club</h1>
+          <h2 class="mb-4 is-size-1 is-size-3-mobile has-text-weight-bold">Vie du club</h2>
           <p class="subtitle has-text-grey mb-5">SPRIIINT est une association sportive menée par des bénévoles, qui
             existe depuis 2020 et fait partie de la Fédération Francaise d’Athlétisme.</p>
 
@@ -193,23 +198,25 @@
 
 
 
-  <section>
+  <section id="etranger">
 
-    <div class="travel" id="etranger">
+    <div class="travel">
 
       <div class="column is-12 is-6-desktop mx-auto has-text-centered">
-        <h1 class="mb-4 is-size-1 is-size-3-mobile has-text-weight-bold has-text-white">Voyages à l'etranger</h1>
-        <p class="subtitle has-text-white mb-5">Le club organise une fois à deux fois par année, des stages à l'etranger. <br>
-          Ce qui à pour but d'integrer tous les nouveaux lisenciés et de faire croitre la bonne ambiance ainsi qu'une bonne cohésion.
-
+        <h2 class="mb-4 is-size-1 is-size-3-mobile has-text-weight-bold has-text-white">Voyages à l'etranger</h2>
+        <p class="subtitle has-text-white mb-5">Le club organise une fois à deux fois par année, des stages à
+          l'etranger. <br>
+          Ce qui a pour but d'integrer tous les nouveaux licenciés et de faire croitre la bonne ambiance ainsi qu'une
+          bonne cohésion.
         </p>
       </div>
 
+
       <div class="section">
         <div class="cardcontainer">
-        
+
           <!--Card 1-->
-          <div class="card">
+          <div id="card1" class="card">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="img/happy.png" alt="Placeholder image">
@@ -227,18 +234,18 @@
                   <p class="subtitle is-6">@enrikspeed</p>
                 </div>
               </div>
-      
+
               <div class="content">
-                &#10024 Magique le stage en guadeloupe &#10024. Déjà hate de voir le prochain &#128526  <br>
+                &#10024 Magique le stage en Guadeloupe &#10024. Déjà hate de voir le prochain &#128526 <br>
                 <a href="#">#guadeloupe</a> <a href="#">#stageautop</a>
                 <br>
                 <time datetime="2016-1-1">6 jan 2020</time>
               </div>
             </div>
           </div>
-          
 
-          <div class="card">
+
+          <div class="card" id="card2">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="img/usa.png" alt="Placeholder image">
@@ -256,9 +263,10 @@
                   <p class="subtitle is-6">@mathousprint</p>
                 </div>
               </div>
-      
+
               <div class="content">
-                Un stage à New-York avec le club. Le meilleur stage jusqu'ici&#128527 &#129321 <br> <a>@Nadya</a> <a>@chacha</a>.
+                Un stage à New-York avec le club. Le meilleur stage jusqu'ici&#128527 &#129321 <br> <a>@Nadya</a>
+                <a>@chacha</a>.
                 <a href="#">#Unitedstates</a> <a href="#">#usflag</a>
                 <br>
                 <time datetime="2016-1-1">10 Juin 2020</time>
@@ -266,8 +274,8 @@
             </div>
           </div>
 
-             
-          <div class="card">
+
+          <div class="card" id="card3">
             <div class="card-image">
               <figure class="image is-4by3">
                 <img src="img/london.png" alt="Placeholder image">
@@ -285,9 +293,9 @@
                   <p class="subtitle is-6">@mikadodo</p>
                 </div>
               </div>
-      
+
               <div class="content">
-                Hâte de revoir nos correspondante londonienne. Pas vrai <a>@Benji</a>  &#128527 &#128527 <br>
+                Hâte de revoir nos correspondantes londoniennes. Pas vrai <a>@Benji</a> &#128527 &#128527 <br>
                 <a href="#">#friendsforlife</a> <a href="#">#track&field</a>
                 <a href="#">#200meters</a>
                 <br>
@@ -295,14 +303,147 @@
               </div>
             </div>
           </div>
-
-
         </div>
-      
       </div>
+  </section>
+
+
+
+
+
+
+
+
+  <!--Nous rejoindre-->
+
+
+
+  <section id="price">
+
+
+    <div class="column is-12 is-6-desktop mx-auto has-text-centered">
+      <h2 class="mb-4 is-size-1 is-size-3-mobile has-text-weight-bold has-text-centered mt-6">Nous rejoindre</h2>
+    </div>
+
+
+
+    <div class="price-table">
+      <div class="pricing-table">
+        <p class="pricing-table__header">- LICENCE - <br>classique</p>
+        <p class="pricing-table__price">150€</p>
+        <a target="_blank" class="pricing-table__button" href="#">
+          C'est parti !
+        </a>
+        <ul class="pricing-table__list">
+          <li>Entrainements</li>
+          <li>Competitions</li>
+          <li>Stages</li>
+          <li id="non">Stage à l'etranger</li>
+        </ul>
+      </div>
+
+      <div class="pricing-table">
+        <p class="pricing-table__header">- LICENCE - <br>++</p>
+        <p class="pricing-table__price">250€</p>
+        <a target="_blank" class="pricing-table__button" href="#">
+          C'est parti !
+        </a>
+        <ul class="pricing-table__list">
+          <li>Entrainements</li>
+          <li>Competitions</li>
+          <li>Stages</li>
+          <li>Stage à l'etranger</li>
+        </ul>
+      </div>
+    </div>
+  
+  </section>
+
+
+
+  <!--formulaire de contact-->
+
+
+  <section class="formulaire" id="contact">
+
+    <div class="column is-12 is-6-desktop mx-auto has-text-centered">
+      <h2 class="mb-4 is-size-1 is-size-3-mobile has-text-weight-bold has-text-centered mt-6">Des Questions ?</h2>
+    </div>
+
+    <div class="block-formular"></div>
+    <div class="field ">
+      <label class="label">Name</label>
+      <div class="control">
+        <input class="input" type="text" placeholder="Tanguy" >
+      </div>
+    </div>
+
+
+    <div class="field">
+      <label class="label">Email</label>
+      <div class="control has-icons-left has-icons-right">
+        <input class="input " type="email" placeholder="mymel@gmail.com" required>
+        <span class="icon is-small is-left">
+          <i class="fas fa-envelope"></i>
+        </span>
+        <span class="icon is-small is-right">
+          <i class="fas fa-exclamation-triangle"></i>
+        </span>
+      </div>
+      
+    </div>
+
+    <div class="field">
+      <label class="label">Subject</label>
+      <div class="control">
+        <div class="select">
+          <select>
+            <option>Licence</option>
+            <option>Renseignements divers</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label">Message</label>
+      <div class="control">
+        <textarea class="textarea" placeholder="Textarea"></textarea>
+      </div>
+    </div>
+
+    <div class="field is-grouped">
+      <div class="control">
+        <button class="button is-link" type="submit">Submit</button>
+      </div>
+      <div class="control">
+        <button class="button is-link is-light" type="reset">Cancel</button>
+      </div>
+    </div>
+    </div>
+
+
 
 
   </section>
+
+
+<!--bas de page-->
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Spriiint</strong> by <strong> Tanguy Xavier</strong>. The source code is licensed
+        . The website content
+        is licensed 
+      </p>
+    </div>
+  </footer>
+
+
+
+
+
 
 
 

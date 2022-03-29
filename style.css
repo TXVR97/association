@@ -1,214 +1,406 @@
+/*accueil nav footer*/
 
+.accueil {
+  width: 100%;
+  height: 100vh;
+  min-height: 970px;
+  background-image: url(img/pistelon4sombre.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
 
-/*accueil*/
-
-
-.accueil{
+#barrenav{
+    position:fixed;
     width: 100%;
-    height: 100vh;
-    min-height: 970px ;
-    background-image: url(img/pistelon4sombre.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
 }
 
-h1{
-    font-family: 'Atma', cursive;
+h1 {
+  font-family: "Atma", cursive;
 }
 
-p{
-    font-family: 'Work Sans', sans-serif;
+.accueil p, #etranger p, #life p {
+  font-family: "Work Sans", sans-serif;
 }
 
-h2{
-    font-family: 'Amarante', cursive;
+#life h2, #etranger h2, #price h2, #contact h2 {
+  font-family: "Amarante", cursive;
 }
 
-a{
-    font-family: 'Work Sans', sans-serif;
+a {
+  font-family: "Work Sans", sans-serif;
 }
 
 
-.accueil h1{
-    text-align: center;
-    font-size: 73px;
-    text-shadow: 0 0 10px rgb(136, 135, 135);
-    color: rgb(255, 255, 255);
-    padding-top: 150px;
-    
-    
+#home{
+  padding-top: 70px;
 }
 
-.accueil p{
-    text-align: center;
-    font-size: 25px;
-    color: white;
-    padding-right: 10px;
-    text-shadow: 0 0 10px rgb(136, 135, 135);
-    font-weight: bold;
+.accueil h1 {
+  text-align: center;
+  font-size: 150px;
+  text-shadow: 0 0 10px rgb(136, 135, 135);
+  color: rgb(255, 255, 255);
+  padding-top: 150px;
 }
 
-.accueil button{
-    display: block;
-    margin: 15px auto 0;
-    font-family: 'Amarante', cursive;
+.accueil p {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  padding-right: 10px;
+  text-shadow: 0 0 10px rgb(136, 135, 135);
+  font-weight: bold;
+}
+
+.accueil button {
+  display: block;
+  margin: 15px auto 0;
+  font-family: "Amarante", cursive;
 }
 
 .accueil button a {
-    color: black;
-}
- 
-
-#plusbutton,button a:hover{
-    background-color:white;
-    color: rgb(160, 51, 51);
-    
+  color: black;
 }
 
-@media screen and  (min-width: 960px) {
-    .accueil h1{
-        font-size: 110px;
-    }
-
-    .accueil p{
-        font-size: 35px ;
-    }
+#plusbutton,
+button a:hover {
+  background-color: white;
+  color: rgb(160, 51, 51);
 }
-    
 
+@media screen and (min-width: 960px) {
+  .accueil h1 {
+    font-size: 110px;
+  }
+
+  .accueil p {
+    font-size: 35px;
+  }
+}
+
+.footer strong{
+  font-weight: 700;
+}
 
 /*Vie du club*/
+
+#life{
+    width: 100%;
     
-#cross1{
-    display: flex;
-    justify-content: center;
-    
+
 }
 
-#cross2{
-    display: flex;
-    justify-content: center;
-    
-    
-}
- 
-#crossmiddle{
-    display: flex;
-    padding-left: 12px;
-    justify-content: center;
-
-    
+#cross1 {
+  display: flex;
+  justify-content: center;
 }
 
-
-
-
-@media screen and (min-width: 1024px) {
-    
-    #cross1{display: flex;
-        justify-content: center;
-        margin-top: 20px;
-        margin-bottom: 30px;
-    }
-    #cross2{display: flex;
-        justify-content: center;
-        margin-top: 20px;
-        margin-bottom: 30px;
-    }
-   
+#cross2 {
+  display: flex;
+  justify-content: center;
 }
 
-
-@media screen and (min-width: 1024px) {
-    #crossmiddle{display: none;}
+#crossmiddle {
+  display: flex;
+  padding-left: 12px;
+  justify-content: center;
 }
 
 @media screen and (min-width: 1024px) {
-    #collumn1{
-        margin-top: 10px;
-    }
-    #collumn2{
-        margin-top: 10px;
-    }
+  #cross1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  #cross2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #crossmiddle {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #collumn1 {
+    margin-top: 10px;
+  }
+  #collumn2 {
+    margin-top: 10px;
+  }
 }
 
 @media screen and (min-width: 1220px) {
-    #collumn1{
-        margin-top: 90px;
-    }
-    #collumn2{
-        margin-top: 90px;
-    }
+  #collumn1 {
+    margin-top: 90px;
+  }
+  #collumn2 {
+    margin-top: 90px;
+  }
 }
 
-
 @media screen and (min-width: 1408px) {
-    #collumn1{
-        margin-top: 150px;
-    }
-    #collumn2{
-        margin-top: 150px;
-    }
+  #collumn1 {
+    margin-top: 150px;
+  }
+  #collumn2 {
+    margin-top: 150px;
+  }
 }
 
 /*debut correction de la croix du milieu probleme avec is-multiline */
-@media screen and  (min-width: 769px){
-    #lifecontainer{
-display:block;
-    }
+@media screen and (min-width: 769px) {
+  #lifecontainer {
+    display: block;
+  }
 }
-    
-@media screen and (min-width: 1024px){
-    #lifecontainer{
-        display: flex;
-    }
+
+@media screen and (min-width: 1024px) {
+  #lifecontainer {
+    display: flex;
+  }
 }
 
 /*stage etranger*/
 
+.travel {
+  display: grid;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  min-height: 970px;
+  background-image: url(img/littleplane.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-.travel{
+@media screen and (min-width: 960px) {
+  .travel {
+    background-image: url(img/avion.png);
+  }
+}
+
+.cardcontainer {
+  box-sizing: border-box; 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr) );
+  grid-gap: 0.5em;
+  
+  
+  
+}
+
+
+
+#card1 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#card2 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#card3 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+@media screen and (min-width: 1120px) {
+  .cardcontainer {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
+@media screen and (min-width: 1330px) {
+  .cardcontainer {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
+}
+
+@media screen and (min-width: 1730px) {
+  .cardcontainer {
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  }
+}
+
+@media screen and (max-width: 830px){
+  .cardcontainer{
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+  
+
+
+
+
+
+/*Nous rejoindre*/
+
+
+ 
+  .price-table {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    font-weight:700;
+    padding-bottom: 250px;
+    
+
+  }
+  
+  
+  .price-table .pricing-table {
+    display: inline-block;
+    border: 1px solid #c8c8c8;
+    border-radius: 10px;
+    background: white;
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  .price-table .pricing-table__header {
+    padding: 20px;
+    font-size: 50px;
+    color: #909090;
+    background: #e0e0e0;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+  }
+  .price-table .pricing-table__price {
+    color: #8d66cc;
+    padding: 20px;
+    margin: auto;
+    font-size: 100px;
+    font-weight: 700;
+    
+  }
+
+  .pricing-table__list{
+      font-size: 30px ;
+  }
+  .price-table .pricing-table__button {
+    display: block;
+    background: #8d66cc;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  .price-table .pricing-table__button:before {
+    position: absolute;
+    left: -20%;
+    top: -10%;
+    content: '';
+    width: 60%;
+    height: 220%;
+    transform: rotate(-30deg);
+    background: white;
+    opacity: 0.3;
+    transition: all 0.3s ease-in-out;
+  }
+  .price-table .pricing-table__button:after {
+    position: absolute;
+    content: '>';
+    top: 0;
+    right: 0;
+    font-size: 25px;
+    padding: 15px;
+    padding-right: 40px;
+    color: white;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    
+  }
+
+#non{
+    text-decoration:line-through;
+    color: crimson;
+    
+
+}
+
+  .price-table .pricing-table__button:hover {
+    background: black;
+  }
+  .price-table .pricing-table__list {
+    padding: 20px;
+    color: #a0a0a0;
+  }
+  .price-table .pricing-table__list li {
+    padding: 15px;
+    border-bottom: 1px solid #c8c8c8;
+  }
+  .price-table .pricing-table__list li:last-child {
+    border: none;
+  }
+  .price-table .pricing-table:hover {
+    box-shadow: 0px 0px 19px -3px rgba(0, 0, 0, 0.36);
+  }
+  .price-table .pricing-table:hover .pricing-table__button {
+    padding-left: 0;
+    padding-right: 35px;
+  }
+  .price-table .pricing-table:hover .pricing-table__button:before {
+    top: -80%;
+    transform: rotate(0deg);
+    width: 100%;
+  }
+  .price-table .pricing-table:hover .pricing-table__button:after {
+    opacity: 1;
+    padding-right: 15px;
+  }
+
+ 
+
+    @media screen and (min-width: 1493px) {
+      
+
+      .price-table .pricing-table{
+        margin: 20px 200px;
+    }
+
+    .price-table{
+        background-image: url(img/choix.png);
+    background-size: 400px ;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    }
+
+  }
+
+
+
+  /*formulaire*/
+
+
+  .formulaire{
     width: 100%;
     height: 100vh;
-    min-height: 970px ;
-    background-image: url(img/littleplane.png);
+    min-height: 970px;
+    background-image: url(img/formular.jpg);
+    padding-top: 100px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-}
-
-@media screen and  (min-width: 960px) {
-    .travel{
-        background-image: url(img/avion.png);}
     }
 
-    .cardcontainer{
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
-        grid-gap: 0.5em;
-    }
-    
-    .card{
-        height: max-content;
-    }
-   
-    @media screen and  (min-width: 1120px){
-        .cardcontainer{
-            grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
-        }
-    }
-
-    @media screen and  (min-width: 1330px){
-        .cardcontainer{
-            grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
-        }
-    }
-
-    @media screen and  (min-width: 1730px){
-        .cardcontainer{
-            grid-template-columns: repeat(auto-fill, minmax(500px,1fr));
-        }
-    }
+  .field{
+    width: 500px;
+    margin: 30px auto 30px auto;
+  }
